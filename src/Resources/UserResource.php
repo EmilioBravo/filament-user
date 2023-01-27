@@ -15,6 +15,7 @@ use Filament\Tables\Columns\BooleanColumn;
 use Illuminate\Database\Eloquent\Builder;
 use io3x1\FilamentUser\Resources\UserResource\Pages;
 use STS\FilamentImpersonate\Impersonate;
+use Heloufir\FilamentWorkflowManager\Resources\UserResource\WorkflowPermissions;
 
 class UserResource extends Resource
 {
@@ -93,7 +94,7 @@ class UserResource extends Resource
     public static function getRelations(): array
     {
         return [
-            //
+            WorkflowPermissions::class,
         ];
     }
 
