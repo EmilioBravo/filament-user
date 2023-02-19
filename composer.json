@@ -29,7 +29,7 @@
         "bezhansalleh/filament-shield": "^2.1",
         "filament/filament": "^2.9",
         "spatie/laravel-package-tools": "^1.12",
-        "stechstudio/filament-impersonate": "^2.5",
+        "stechstudio/filament-impersonate": "2.11",
         "heloufir/filament-workflow-manager": "dev-get-all-workflow-models"
     },
     "config": {
